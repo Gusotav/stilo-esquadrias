@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stilo Esquadrias &amp; Vidros — Ribeirão Preto</title>
+  <meta name="description" content="Stilo Esquadrias & Vidros: há mais de 25 anos em Ribeirão Preto, com soluções em vidro temperado e esquadrias de alumínio.">
+  <link rel="icon" href="img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topo" id="topo">
+  <div class="topo-pill">
+    <a href="#inicio" class="topo-logo"><img src="img/logo.png" alt="Stilo Esquadrias &amp; Vidros"></a>
+    <nav class="topo-nav" id="menu">
+      <a href="#solucoes">Soluções</a>
+      <a href="#beneficios">Benefícios</a>
+      <a href="#obras">Obras</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a href="#contato" class="btn btn-cheio btn-pequeno">Orçamento</a>
+    <button class="topo-menu" id="abrirMenu" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <!-- Hero -->
+  <section class="hero" id="inicio">
+    <div class="hero-fundo" style="background-image:url(img/hero.jpg)"></div>
+    <div class="hero-veu"></div>
+    <div class="container hero-grade">
+      <div class="hero-texto">
+        <span class="selo"><i class="ponto"></i>Ribeirão Preto · há mais de 25 anos</span>
+        <h1>Sua casa merece<br>ter <span class="destaque">Stilo</span></h1>
+        <p class="hero-sub">Esquadrias de alumínio e vidro temperado para transformar sua obra com mais conforto, qualidade e durabilidade.</p>
+        <ul class="tags">
+          <li>Qualidade</li><li>Durabilidade</li><li>Pontualidade</li>
+        </ul>
+        <dl class="numeros">
+          <div><dt>25+</dt><dd>anos de mercado</dd></div>
+          <div><dt>+7.000</dt><dd>projetos entregues</dd></div>
+          <div><dt>100%</dt><dd>equipe própria</dd></div>
+        </dl>
+      </div>
+      <form class="form-card vidro" data-form>
+        <h2>Solicite orçamento para seu projeto</h2>
+        <label>Nome completo<input name="nome" required placeholder="Seu nome completo" autocomplete="name"></label>
+        <label>WhatsApp<input name="whats" required placeholder="(DDD) 00000-0000" inputmode="tel" data-telefone></label>
+        <label>Cidade<input name="cidade" required placeholder="Sua cidade"></label>
+        <button class="btn btn-cheio">Falar com um consultor</button>
+        <p class="legal">Ao enviar, você concorda em ser contatado por WhatsApp. Seus dados são tratados conforme nossa <a href="#">Política de Privacidade</a>.</p>
+      </form>
+    </div>
+    <a href="#sobre" class="rolar">Role para descobrir<i></i></a>
+  </section>
+
+  <!-- Sobre -->
+  <section class="sobre" id="sobre">
+    <div class="container sobre-grade">
+      <figure class="sobre-foto revelar"><img src="img/sobre.jpg" alt="Fechamento de vidro em residência instalado pela Stilo Esquadrias &amp; Vidros" loading="lazy"></figure>
+      <div class="revelar">
+        <ul class="tags tags-claras"><li>Sacadas</li><li>Esquadrias</li><li>Guarda-corpo</li><li>Box</li></ul>
+        <h2 class="titulo">Tudo que você precisa para sua obra, <span class="destaque">em um só lugar</span></h2>
+        <p class="texto">A Stilo Esquadrias &amp; Vidros tem mais de 25 anos de experiência entregando soluções completas em vidro e alumínio para obras residenciais e comerciais. Nossa equipe cuida do projeto desde a medição até a instalação final com pontualidade e acabamento que você nota.</p>
+        <div class="mini-cards">
+          <div><b>25+</b><span>anos de experiência</span></div>
+          <div><b>+7.000</b><span>projetos entregues</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Soluções -->
+  <section class="escuro" id="solucoes">
+    <div class="container">
+      <div class="cabeca revelar">
+        <span class="sobretitulo">Soluções</span>
+        <h2 class="titulo">Temos todas as soluções que sua obra precisa.</h2>
+        <p class="texto">Do projeto à instalação — vidro, alumínio e acabamento premium para residências, comércios e obras em Ribeirão Preto e região.</p>
+      </div>
+      <div class="sanfona revelar" id="sanfona">
+        <article class="painel aberto" style="--foto:url(img/sol-sacada.jpg)">
+          <button class="painel-rotulo" aria-expanded="true">Fechamento de Sacadas</button>
+          <div class="painel-info"><span>Envidraçamento</span><h3>Fechamento de Sacadas</h3><i></i><p>Sistemas de envidraçamento que ampliam o uso da sacada com proteção, conforto e elegância.</p></div>
+        </article>
+        <article class="painel" style="--foto:url(img/sol-guarda-corpo.jpg)">
+          <button class="painel-rotulo" aria-expanded="false">Guarda-corpo e Escadas</button>
+          <div class="painel-info"><span>Segurança &amp; design</span><h3>Guarda-corpo e Escadas</h3><i></i><p>Guarda-corpos e painéis de vidro que unem segurança estrutural a um visual contemporâneo.</p></div>
+        </article>
+        <article class="painel" style="--foto:url(img/sol-box.jpg)">
+          <button class="painel-rotulo" aria-expanded="false">Box para Banheiro</button>
+          <div class="painel-info"><span>Sob medida</span><h3>Box para Banheiro</h3><i></i><p>Boxes em vidro temperado com design funcional, segurança e acabamento sofisticado para o seu banheiro.</p></div>
+        </article>
+        <article class="painel" style="--foto:url(img/sol-esquadria.jpg)">
+          <button class="painel-rotulo" aria-expanded="false">Esquadrias de Alumínio</button>
+          <div class="painel-info"><span>Portas &amp; janelas</span><h3>Esquadrias de Alumínio</h3><i></i><p>Esquadrias sob medida em alumínio de alto padrão, com vedação premium e acabamento impecável.</p></div>
+        </article>
+        <article class="painel" style="--foto:url(img/sol-temperado.jpg)">
+          <button class="painel-rotulo" aria-expanded="false">Vidros Temperados</button>
+          <div class="painel-info"><span>Resistência</span><h3>Vidros Temperados</h3><i></i><p>Vidros de alta resistência para fachadas, divisórias, portas e projetos que exigem segurança.</p></div>
+        </article>
+      </div>
+      <div class="centro"><a href="#contato" class="btn btn-cheio btn-seta">Solicitar orçamento</a></div>
+    </div>
+  </section>
+
+  <!-- Benefícios -->
+  <section class="profundo" id="beneficios">
+    <div class="container">
+      <div class="cabeca revelar">
+        <span class="sobretitulo">Muito além do visual</span>
+        <h2 class="titulo">Além do visual, o que <span class="destaque">realmente importa</span></h2>
+        <p class="texto">Benefícios que ficam com você depois da instalação.</p>
+      </div>
+      <div class="cards-beneficios">
+        <article class="card-escuro revelar"><span class="icone"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6l7-3z"/></svg></span><h3>Maior Durabilidade</h3><p>Materiais de qualidade que garantem vida longa ao seu investimento.</p></article>
+        <article class="card-escuro revelar"><span class="icone"><svg viewBox="0 0 24 24"><path d="M11 5L6 9H3v6h3l5 4V5zM16 9a4 4 0 010 6M19 6a8 8 0 010 12"/></svg></span><h3>Isolamento Acústico</h3><p>Vidros e esquadrias que reduzem significativamente o barulho externo.</p></article>
+        <article class="card-escuro revelar"><span class="icone"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M5 19l1.5-1.5M17.5 6.5L19 5"/></svg></span><h3>Mais Iluminação</h3><p>Projetos em vidro ampliam a entrada de luz natural.</p></article>
+        <article class="card-escuro revelar"><span class="icone"><svg viewBox="0 0 24 24"><path d="M14 14.8V4a2 2 0 10-4 0v10.8a4 4 0 104 0z"/></svg></span><h3>Conforto Térmico</h3><p>Esquadrias com vedação adequada que ajudam a manter a temperatura interna.</p></article>
+        <article class="card-escuro revelar"><span class="icone"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7M5 9.5V20h14V9.5"/></svg></span><h3>Valorização do Imóvel</h3><p>Acabamento em vidro e alumínio agrega valor estético e comercial ao imóvel.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Obras -->
+  <section class="claro" id="obras">
+    <div class="container">
+      <div class="cabeca cabeca-centro revelar">
+        <span class="sobretitulo">Portfólio</span>
+        <h2 class="titulo">Algumas obras realizadas em <span class="destaque">mais de 25 anos</span> de projetos em Ribeirão Preto e região.</h2>
+      </div>
+      <div class="galeria">
+        <figure class="revelar"><img src="img/obra-01.jpg" alt="Fechamento de varanda em vidro temperado" loading="lazy"></figure>
+        <figure class="revelar"><img src="img/obra-02.jpg" alt="Sacada envidraçada com vista panorâmica" loading="lazy"></figure>
+        <figure class="revelar"><img src="img/obra-03.jpg" alt="Cobertura de vidro sobre área gourmet" loading="lazy"></figure>
+        <figure class="revelar"><img src="img/obra-04.jpg" alt="Box de banheiro em vidro temperado" loading="lazy"></figure>
+        <figure class="revelar"><img src="img/obra-05.jpg" alt="Espelho com iluminação LED em banheiro" loading="lazy"></figure>
+        <figure class="revelar"><img src="img/obra-06.jpg" alt="Espelho decorativo com moldura em vidro" loading="lazy"></figure>
+        <figure class="revelar"><img src="img/obra-07.jpg" alt="Espelho bisotado em hall de entrada" loading="lazy"></figure>
+        <figure class="revelar"><img src="img/obra-08.jpg" alt="Fachada comercial em vidro e estrutura de alumínio" loading="lazy"></figure>
+        <figure class="revelar"><img src="img/obra-09.jpg" alt="Armários de vidro sob medida" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section class="suave" id="depoimentos">
+    <div class="container">
+      <div class="cabeca cabeca-centro revelar">
+        <span class="sobretitulo">Depoimentos</span>
+        <h2 class="titulo">Como nossos clientes nos avaliam</h2>
+      </div>
+      <div class="carrossel revelar" id="carrossel">
+        <div class="trilho">
+          <article class="depo"><div class="estrelas">★★★★★</div><blockquote>“Serviço maravilhoso, bem feito! São bem organizados, não deixaram sujeira espalhada! Atendimento nota 10, Educação e Respeito para com os clientes. Atenciosos demais, desde a primeira visita que fez. Até os rapazes que foram fazer a instalação! Empresa pontual e boa no que faz! Parabéns com certeza indico e voltaria a fazer mais serviços.”</blockquote><footer><span class="avatar">V</span><div><b>Viviana Paiva Fratta</b><small>Cliente Stilo Esquadrias &amp; Vidros</small></div></footer></article>
+          <article class="depo"><div class="estrelas">★★★★★</div><blockquote>“Melhor preço, qualidade e refino na instalação, tudo detalhadamente, mais uma vez muito obrigado, prazo e pontualidade, e toque de surpresa que agrega...”</blockquote><footer><span class="avatar">K</span><div><b>Ktr Piloto</b><small>Cliente Stilo Esquadrias &amp; Vidros</small></div></footer></article>
+          <article class="depo"><div class="estrelas">★★★★★</div><blockquote>“Ótimo atendimento, Clayton muito prestativo, o serviço foi entregue e executado rápido e com qualidade. Recomendo muito.”</blockquote><footer><span class="avatar">E</span><div><b>Eric Fan016</b><small>Cliente Stilo Esquadrias &amp; Vidros</small></div></footer></article>
+          <article class="depo"><div class="estrelas">★★★★★</div><blockquote>“Uma ótima Vidraçaria de Ribeirão. São ágeis e serviço de qualidade, além do preço justo e atendimento exemplar. Parabéns pelo serviço prestado. Amei e recomendo!!”</blockquote><footer><span class="avatar">R</span><div><b>Rafaella Ungaretti</b><small>Cliente Stilo Esquadrias &amp; Vidros</small></div></footer></article>
+          <article class="depo"><div class="estrelas">★★★★★</div><blockquote>“Passando para agradecer o trabalho que foi feito na minha sacada. Excelente o atendimento! A execução ficou perfeita! Parabéns pessoal pelo trabalho em equipe!”</blockquote><footer><span class="avatar">L</span><div><b>Laudirene Martins</b><small>Cliente Stilo Esquadrias &amp; Vidros</small></div></footer></article>
+        </div>
+        <div class="carrossel-controles">
+          <button class="seta" data-dir="-1" aria-label="Avaliações anteriores">‹</button>
+          <div class="pontos" id="pontos"></div>
+          <button class="seta" data-dir="1" aria-label="Próximas avaliações">›</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Segurança -->
+  <section class="escuro" id="seguranca">
+    <div class="container">
+      <div class="cabeca cabeca-centro revelar">
+        <span class="sobretitulo">Segurança para investir</span>
+        <h2 class="titulo">Invista no seu imóvel com <span class="destaque">segurança e comprometimento</span></h2>
+      </div>
+      <div class="cards-seguranca">
+        <article class="card-escuro centro revelar"><span class="icone"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18"/></svg></span><h3>Parcelamento</h3><p>Parcele em até 10x no cartão — sem burocracia e sem comprometer seu caixa.</p></article>
+        <article class="card-escuro centro revelar"><span class="icone"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0113 0M16 11l2 2 4-4"/></svg></span><h3>Equipe Especializada</h3><p>Instalação realizada por nossa própria equipe, treinada e com mais de 25 anos de experiência no ramo.</p></article>
+        <article class="card-escuro centro revelar"><span class="icone"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><h3>Compromisso</h3><p>Compromisso com prazos — o prazo combinado é o prazo cumprido, sem surpresas.</p></article>
+      </div>
+      <div class="centro"><a href="#contato" class="btn btn-cheio btn-seta">Falar com um consultor</a></div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section class="contato" id="contato">
+    <div class="contato-fundo" style="background-image:url(img/contato.jpg)"></div>
+    <div class="container contato-grade">
+      <div class="revelar">
+        <span class="sobretitulo">Vamos conversar</span>
+        <h2 class="titulo">Está construindo<br>ou <span class="destaque">reformando?</span></h2>
+        <p class="texto">Independente do porte do seu projeto, temos a solução em vidro e alumínio ideal para você.</p>
+        <div class="perfis">
+          <article><span class="icone"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7M5 9.5V20h14V9.5"/></svg></span><div><h3>Morando em casa ou apartamento</h3><p>Fechamentos de sacada, box, guarda-corpo, janelas e portas sob medida para o seu lar.</p></div></article>
+          <article><span class="icone"><svg viewBox="0 0 24 24"><path d="M4 21V8l8-5 8 5v13M9 21v-6h6v6"/></svg></span><div><h3>Empresário ou comerciante</h3><p>Fachadas em vidro, divisórias e coberturas para modernizar e valorizar o seu estabelecimento.</p></div></article>
+          <article><span class="icone"><svg viewBox="0 0 24 24"><path d="M14 4l6 6-9 9H5v-6l9-9z"/></svg></span><div><h3>Em obra ou reforma</h3><p>Caixilhos, esquadrias e vidros temperados entregues e instalados no prazo que sua obra precisa.</p></div></article>
+        </div>
+      </div>
+      <form class="form-card vidro-escuro revelar" data-form>
+        <h2>Fale conosco</h2>
+        <label>Nome completo<input name="nome" required placeholder="Seu nome completo" autocomplete="name"></label>
+        <label>WhatsApp<input name="whats" required placeholder="(DDD) 00000-0000" inputmode="tel" data-telefone></label>
+        <label>Cidade<input name="cidade" required placeholder="Sua cidade"></label>
+        <button class="btn btn-cheio">Falar com um consultor</button>
+        <p class="legal">Ao enviar, você concorda em ser contatado por WhatsApp. Seus dados são tratados conforme nossa <a href="#">Política de Privacidade</a>.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <div class="container rodape-grade">
+    <div>
+      <img src="img/logo.png" alt="Stilo Esquadrias &amp; Vidros" class="rodape-logo">
+      <p>Vidro temperado e esquadrias de alumínio em Ribeirão Preto/SP. Mais de 25 anos transformando obras com qualidade e pontualidade.</p>
+    </div>
+    <div><h4>Endereço</h4><p>R. Onze de Agosto, 1966<br>Campos Elísios<br>Ribeirão Preto/SP<br>CEP 14085-030</p></div>
+    <div><h4>Atendimento</h4><p>Segunda a Sexta: 07:30 às 17:30<br>Sábado: apenas com hora marcada</p><h4>Contato</h4><p>(16) 3626-5197<br>WhatsApp (16) 98156-0904<br>vidracariastilo@outlook.com.br</p></div>
+    <div><h4>Redes sociais</h4><p>@stilovidracaria<br>/vidracariastilo</p></div>
+  </div>
+  <div class="container rodape-base"><span>© 2026 Stilo Esquadrias &amp; Vidros. Todos os direitos reservados.</span><a href="https://lp.vidracariastilo.com.br">Site oficial</a></div>
+</footer>
+
+<button class="whats" id="abrirWhats" aria-label="Falar pelo WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.7 1.2 1.6 1.9 1.1 1 2 1.3 2.3 1.4.3.1.4.1.6-.1l.8-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.2z"/></svg></button>
+
+<dialog class="modal" id="modalWhats">
+  <form class="form-card" data-form>
+    <button type="button" class="fechar" aria-label="Fechar" data-fechar>×</button>
+    <h2>Fale com um consultor</h2>
+    <label>Nome completo<input name="nome" required placeholder="Seu nome completo" autocomplete="name"></label>
+    <label>WhatsApp<input name="whats" required placeholder="(DDD) 00000-0000" inputmode="tel" data-telefone></label>
+    <label>Cidade<input name="cidade" required placeholder="Sua cidade"></label>
+    <button class="btn btn-cheio">Continuar no WhatsApp</button>
+  </form>
+</dialog>
+
+<div class="aviso" id="aviso" hidden>
+  <p><b>Esta é uma versão de portfólio do site.</b> Nenhum dado foi enviado. Para pedir um orçamento de verdade, use o site oficial da Stilo.</p>
+  <div><a class="btn btn-cheio btn-pequeno" href="https://lp.vidracariastilo.com.br">Abrir site oficial</a><button class="btn btn-pequeno btn-contorno" data-fechar-aviso>Fechar</button></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
